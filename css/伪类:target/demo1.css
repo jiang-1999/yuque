@@ -1,0 +1,15 @@
+.content {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  display: none;
+}
+.content:target {
+  display: block;
+}
+#tab0 {
+  display: block;
+}
+.content:target ~ #tab0 {
+  display: none;
+}
