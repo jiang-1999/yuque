@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font: 12px/1.4 Arial;
+}
+
+header {
+  background: url(https://i.loli.net/2019/11/08/wcZu1kEbfDSQle5.jpg) center no-repeat;
+  background-size: cover;
+  overflow: auto;
+  height: 500px;
+}
+
+header h1 {
+  margin-top: 200px;
+  color: #fff;
+  font-size: 120px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  background: url(https://i.loli.net/2019/11/08/xVjzkdbnTQe4arP.png) left 20% top 10% no-repeat,
+    url(https://i.loli.net/2019/11/08/utTREbx8CaIjymX.png) right 10% bottom 20% no-repeat;
+}
+
+main .colorful {
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.1);
+  background: url(https://i.loli.net/2019/11/08/MtJh9nmesUSNi65.png) center no-repeat;
+  /* background-clip: text; */
+  /* -webkit-，-moz-之类的前缀，这种就叫做浏览器私有前缀，是浏览器对于新CSS属性的一个提前支持 */
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-size: cover;
+}
