@@ -1,0 +1,30 @@
+{
+  "id": "3546428",
+  "name": "yuque",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1221178",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "1727442",
+      "name": "213麦克风",
+      "font_class": "maikefeng",
+      "unicode": "e8c2",
+      "unicode_decimal": 59586
+    },
+    {
+      "icon_id": "5387387",
+      "name": "键盘",
+      "font_class": "jianpan",
+      "unicode": "eac2",
+      "unicode_decimal": 60098
+    }
+  ]
+}
