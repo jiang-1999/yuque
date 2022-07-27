@@ -1,0 +1,122 @@
+/* 1 只有一个孩子
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+p {
+  background-color: #f00;
+}*/
+/* 2 当成整体一个孩子 注意和第一种效果一样，渲染不一样
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+} 
+p {
+  background-color: #f00;
+}*/
+/* 3
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  display: grid;
+}
+p {
+  background-color: #f00;
+  margin: auto;
+} */
+/* 4 
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  background-color: #f00;
+} */
+/* 5
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  display: flex;
+}
+p {
+  background-color: #f00;
+  margin: auto;
+} */
+/* 6
+.box {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #000;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+p {
+  background-color: #f00;
+  display: inline-block;
+} */
+/* 7
+.box {
+  height: 300px;
+  width: 300px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  background-color: #f00;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+/* 8
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  text-align: center;
+}
+.box::after {
+  content: "";
+  line-height: 300px;
+}
+p {
+  background-color: #f00;
+  display: inline-block;
+} */
+/* method 9*/
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  position: relative;
+}
+p {
+  background: red;
+  /*必须要设置宽高*/
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
