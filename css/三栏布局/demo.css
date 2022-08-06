@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.wrapper > * {
+  width: 100%;
+}
+
+header {
+  background-color: red;
+}
+main {
+  background-color: blue;
+  flex: 1;
+  order: 2;
+}
+.aside1 {
+  background-color: green;
+  flex-basis: 50px;
+  order: 1;
+}
+.aside2 {
+  background-color: pink;
+  flex-basis: 50px;
+  order: 3;
+}
+footer {
+  background-color: black;
+  order: 4;
+}
