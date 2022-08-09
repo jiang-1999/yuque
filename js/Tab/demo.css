@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.container .tab-header {
+  position: relative;
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #303030;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab-header .tab-item {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.container .line {
+  position: absolute;
+  top: 100%;
+  transform: translateX(0);
+  width: 50px;
+  height: 2px;
+  background-color: #409eff;
+  /* transtion 不同元素切换的过渡效果*/
+  transition: all 0.3s;
+}
+.tab-header .tab-item.active {
+  color: #409eff;
+}
+.tab-content {
+  margin-top: 10px;
+}
+.tab-panel {
+  display: none;
+  padding: 16px 0;
+  font-size: 16px;
+}
+.container .tab-panel.active {
+  display: block;
+}
