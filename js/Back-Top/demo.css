@@ -1,0 +1,15 @@
+.btn-to-top {
+  position: fixed;
+  right: 10px;
+  bottom: 50px;
+  font-size: 14px;
+  padding: 4px;
+  background: #fff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: none;
+}
+
+.btn-to-top.show {
+  display: block;
+}
