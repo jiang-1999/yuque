@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 40px 16px 30px 16px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-group .button {
+  padding: 10px 16px;
+  margin-top: 15px;
+  outline: none;
+  background-color: transparent;
+  color: #303030;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  border-color: lightskyblue;
+  color: lightskyblue;
+}
+.message {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  transform: translate(-50%, -50px);
+  padding: 10px;
+  background-color: #67c23a;
+  color: #fff;
+  border-radius: 4px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.message.show {
+  transform: translate(-50%, 10px);
+  opacity: 1;
+}
+.message.success {
+  background-color: #67c23a;
+}
+.message.warning {
+  background-color: #e6a23c;
+}
+
+.message.info {
+  background-color: #909399;
+}
+
+.message.danger {
+  background-color: #f56c6c;
+}
